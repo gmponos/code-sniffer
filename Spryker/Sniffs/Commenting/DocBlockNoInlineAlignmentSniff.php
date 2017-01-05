@@ -6,7 +6,7 @@
 namespace Spryker\Sniffs\Commenting;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * No inline alignment or additional whitespace for phpdoc tags.

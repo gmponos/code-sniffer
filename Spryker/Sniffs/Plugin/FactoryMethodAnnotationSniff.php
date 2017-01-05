@@ -3,6 +3,7 @@
 namespace Spryker\Sniffs\Plugin;
 
 use PHP_CodeSniffer\Files\File;
+use Spryker\AbstractSniffs\AbstractPluginMethodAnnotationSniff;
 
 /**
  * Spryker Plugin classes should have a getFactory() annotation.
@@ -22,7 +23,7 @@ class FactoryMethodAnnotationSniff extends AbstractPluginMethodAnnotationSniff
         $bundle = $this->getBundle($phpCsFile);
         $factoryName = $bundle . 'CommunicationFactory';
         if (!$this->hasFactoryAnnotation($phpCsFile, $stackPointer) && $this->fileExists($phpCsFile, $this->getFactoryClassName($phpCsFile))) {
-            $fix = $phpCsFile->addFixableError('getFactory() annotation missing', $stackPointer);
+            $fix = $phpCsFile->addFixableError('getFactory() annotation missing', $stackPointer, 'MissingFactory');
             if ($fix) {
                 $this->addFactoryAnnotation($phpCsFile, $stackPointer, $factoryName);
             }

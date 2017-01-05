@@ -6,7 +6,7 @@
 namespace Spryker\Sniffs\PHP;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Always use simple casts instead of method invocation.

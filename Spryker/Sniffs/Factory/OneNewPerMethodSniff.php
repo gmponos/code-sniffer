@@ -3,7 +3,7 @@
 namespace Spryker\Sniffs\Factory;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Spryker Factory classes may not contain multiple object instantiations.

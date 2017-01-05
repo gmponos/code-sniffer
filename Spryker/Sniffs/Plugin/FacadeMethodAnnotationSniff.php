@@ -3,6 +3,7 @@
 namespace Spryker\Sniffs\Plugin;
 
 use PHP_CodeSniffer\Files\File;
+use Spryker\AbstractSniffs\AbstractPluginMethodAnnotationSniff;
 
 /**
  * Spryker Plugin classes should have a getFacade() annotation.
@@ -25,7 +26,7 @@ class FacadeMethodAnnotationSniff extends AbstractPluginMethodAnnotationSniff
         if (!$this->hasFacadeAnnotation($phpCsFile, $stackPointer)
             && $this->fileExists($phpCsFile, $this->getFacadeClassName($phpCsFile))
         ) {
-            $fix = $phpCsFile->addFixableError('getFacade() annotation missing', $stackPointer);
+            $fix = $phpCsFile->addFixableError('getFacade() annotation missing', $stackPointer, 'MissingFacade');
             if ($fix) {
                 $this->addFacadeAnnotation($phpCsFile, $stackPointer, $facadeName);
             }

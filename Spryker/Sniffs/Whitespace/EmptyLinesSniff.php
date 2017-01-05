@@ -2,7 +2,7 @@
 namespace Spryker\Sniffs\WhiteSpace;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Always remove more than two empty lines.

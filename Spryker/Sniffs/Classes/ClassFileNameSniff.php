@@ -15,7 +15,7 @@
 namespace Spryker\Sniffs\Classes;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Squiz_Sniffs_Classes_ClassFileNameSniff.

@@ -6,7 +6,7 @@
 namespace Spryker\Sniffs\Namespaces;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 use Spryker\Traits\UseStatementsTrait;
 
 /**

@@ -3,7 +3,7 @@
 namespace Spryker\Sniffs\DependencyProvider;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Spryker Locator should not return Facades directly, use a bridge instead.

@@ -5,7 +5,7 @@ namespace Spryker\Sniffs\Commenting;
 use Exception;
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 use Spryker\Traits\UseStatementsTrait;
 
 /**

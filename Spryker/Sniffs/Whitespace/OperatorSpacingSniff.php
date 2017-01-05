@@ -4,7 +4,7 @@ namespace Spryker\Sniffs\Whitespace;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Verifies that operators have valid spacing surrounding them.

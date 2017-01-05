@@ -4,7 +4,7 @@ namespace Spryker\Sniffs\Commenting;
 
 use Exception;
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Checks if doc blocks of Spryker test classes contain @group annotations.

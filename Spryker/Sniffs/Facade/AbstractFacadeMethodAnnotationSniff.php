@@ -3,7 +3,7 @@
 namespace Spryker\Sniffs\Facade;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractMethodAnnotationSniff;
+use Spryker\AbstractSniffs\AbstractMethodAnnotationSniff;
 
 abstract class AbstractFacadeMethodAnnotationSniff extends AbstractMethodAnnotationSniff
 {
