@@ -3,6 +3,7 @@
 namespace Spryker\Sniffs\Factory;
 
 use PHP_CodeSniffer\Files\File;
+use Spryker\AbstractSniffs\AbstractFactoryMethodAnnotationSniff;
 
 /**
  * Spryker Factory classes should have a getConfig() annotation.

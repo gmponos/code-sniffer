@@ -3,6 +3,7 @@
 namespace Spryker\Sniffs\Commenting;
 
 use PHP_CodeSniffer\Files\File;
+use Spryker\AbstractSniffs\AbstractFileDocBlockSniff;
 
 /**
  * Check if file has doc block comment and has the expected content

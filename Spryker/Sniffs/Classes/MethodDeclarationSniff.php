@@ -15,6 +15,8 @@
 namespace Spryker\Sniffs\Classes;
 
 use PHP_CodeSniffer\Files\File;
+use PHP_CodeSniffer\Sniffs\AbstractScopeSniff;
+use PHP_CodeSniffer\Sniffs\PHP_CodeSniffer_File;
 use PHP_CodeSniffer_Standards_AbstractScopeSniff;
 use PHP_CodeSniffer\Util\Tokens;
 
@@ -29,7 +31,7 @@ use PHP_CodeSniffer\Util\Tokens;
  * @version Release: @package_version@
  * @link http://pear.php.net/package/PHP_CodeSniffer
  */
-class MethodDeclarationSniff extends PHP_CodeSniffer_Standards_AbstractScopeSniff
+class MethodDeclarationSniff extends AbstractScopeSniff
 {
 
     /**
@@ -135,4 +137,18 @@ class MethodDeclarationSniff extends PHP_CodeSniffer_Standards_AbstractScopeSnif
         }
     }
 
+    /**
+     * Processes a token that is found within the scope that this test is
+     * listening to.
+     *
+     * @param PHP_CodeSniffer_File $phpcsFile The file where this token was found.
+     * @param int $stackPtr The position in the stack where this
+     *                                        token was found.
+     *
+     * @return void
+     */
+    protected function processTokenOutsideScope(File $phpcsFile, $stackPtr)
+    {
+        // TODO: Implement processTokenOutsideScope() method.
+    }
 }
