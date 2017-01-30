@@ -1,11 +1,11 @@
 <?php
 
-namespace Spryker\Sniffs\ControlStructures;
+namespace Spryker_CodeSniffer\Sniffs\ControlStructures;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Traits\BasicsTrait;
+use Spryker_CodeSniffer\Traits\BasicsTrait;
 
 /**
  * Checks that no YODA conditions (reversed order of natural conditions) are being used.

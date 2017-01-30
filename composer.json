@@ -30,7 +30,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Spryker\\": "Spryker"
+      "Spryker_CodeSniffer\\": "Spryker"
     }
   },
   "support": {

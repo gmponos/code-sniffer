@@ -4,11 +4,11 @@
  * (c) Spryker Systems GmbH copyright protected.
  */
 
-namespace Spryker\Sniffs\ControlStructures;
+namespace Spryker_CodeSniffer\Sniffs\ControlStructures;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Inline/conditional assignment is not allowed. Extract into an own line above.

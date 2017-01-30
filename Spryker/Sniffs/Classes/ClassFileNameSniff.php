@@ -12,10 +12,10 @@
  * @license   https://github.com/squizlabs/PHP_CodeSniffer/blob/master/licence.txt BSD Licence
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
-namespace Spryker\Sniffs\Classes;
+namespace Spryker_CodeSniffer\Sniffs\Classes;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Squiz_Sniffs_Classes_ClassFileNameSniff.

@@ -1,5 +1,5 @@
 <?php
-namespace Spryker\Tools\Traits;
+namespace Spryker_CodeSniffer\Tools\Traits;
 
 use PHP_CodeSniffer\Files\File;
 

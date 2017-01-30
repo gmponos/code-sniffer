@@ -3,11 +3,11 @@
  * (c) Spryker Systems GmbH copyright protected.
  */
 
-namespace Spryker\Sniffs\PHP;
+namespace Spryker_CodeSniffer\Sniffs\PHP;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Always use strict null check instead if is_null() method invocation.

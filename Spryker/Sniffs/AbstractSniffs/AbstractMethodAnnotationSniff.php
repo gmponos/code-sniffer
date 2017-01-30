@@ -1,6 +1,6 @@
 <?php
 
-namespace Spryker\Sniffs\AbstractSniffs;
+namespace Spryker_CodeSniffer\Sniffs\AbstractSniffs;
 
 use PHP_CodeSniffer\Files\File;
 

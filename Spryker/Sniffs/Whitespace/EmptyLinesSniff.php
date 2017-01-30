@@ -1,8 +1,8 @@
 <?php
-namespace Spryker\Sniffs\WhiteSpace;
+namespace Spryker_CodeSniffer\Sniffs\WhiteSpace;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Always remove more than two empty lines.

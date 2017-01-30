@@ -3,10 +3,10 @@
  * (c) Spryker Systems GmbH copyright protected.
  */
 
-namespace Spryker\Sniffs\Commenting;
+namespace Spryker_CodeSniffer\Sniffs\Commenting;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * No inline alignment or additional whitespace for phpdoc tags.

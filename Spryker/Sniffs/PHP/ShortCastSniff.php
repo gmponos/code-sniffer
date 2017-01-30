@@ -3,7 +3,7 @@
 /**
  * (c) Spryker Systems GmbH copyright protected.
  */
-namespace Spryker\Sniffs\PHP;
+namespace Spryker_CodeSniffer\Sniffs\PHP;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spryker\Sniffs\Facade;
+namespace Spryker_CodeSniffer\Sniffs\Facade;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractMethodAnnotationSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractMethodAnnotationSniff;
 
 abstract class AbstractFacadeMethodAnnotationSniff extends AbstractMethodAnnotationSniff
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Spryker\Sniffs\WhiteSpace;
+namespace Spryker_CodeSniffer\Sniffs\WhiteSpace;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;

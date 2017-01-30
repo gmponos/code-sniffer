@@ -1,10 +1,10 @@
 <?php
 
-namespace Spryker\Sniffs\Whitespace;
+namespace Spryker_CodeSniffer\Sniffs\Whitespace;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Verifies that operators have valid spacing surrounding them.

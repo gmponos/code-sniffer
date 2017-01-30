@@ -1,11 +1,11 @@
 <?php
-namespace Spryker\Sniffs\Namespaces;
+namespace Spryker_CodeSniffer\Sniffs\Namespaces;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
-use Spryker\Tools\Traits\CommentingTrait;
-use Spryker\Tools\Traits\NamespaceTrait;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Tools\Traits\CommentingTrait;
+use Spryker_CodeSniffer\Tools\Traits\NamespaceTrait;
 
 /**
  * Checks for "use" statements that are not needed in a file.

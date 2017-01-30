@@ -3,13 +3,13 @@
  * (c) Spryker Systems GmbH copyright protected.
  */
 
-namespace Spryker\Sniffs\Namespaces;
+namespace Spryker_CodeSniffer\Sniffs\Namespaces;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;
 use PHP_CodeSniffer\Util\Tokens;
 use RuntimeException;
-use Spryker\Traits\BasicsTrait;
+use Spryker_CodeSniffer\Traits\BasicsTrait;
 
 /**
  * Spryker internal "inline FQCN" must be moved to use statements.

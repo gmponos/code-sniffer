@@ -2,7 +2,7 @@
 /**
  * (c) Spryker Systems GmbH copyright protected.
  */
-namespace Spryker\Traits;
+namespace Spryker_CodeSniffer\Traits;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spryker\Sniffs\Factory;
+namespace Spryker_CodeSniffer\Sniffs\Factory;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Spryker Factory classes should not make use of private property

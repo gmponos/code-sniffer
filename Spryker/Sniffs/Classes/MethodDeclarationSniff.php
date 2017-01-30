@@ -12,7 +12,7 @@
  * @link      http://pear.php.net/package/PHP_CodeSniffer
  */
 
-namespace Spryker\Sniffs\Classes;
+namespace Spryker_CodeSniffer\Sniffs\Classes;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\AbstractScopeSniff;

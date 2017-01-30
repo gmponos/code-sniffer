@@ -1,6 +1,6 @@
 <?php
 
-namespace Spryker\Sniffs\Facade;
+namespace Spryker_CodeSniffer\Sniffs\Facade;
 
 use PHP_CodeSniffer\Files\File;
 

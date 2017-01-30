@@ -1,9 +1,9 @@
 <?php
 
-namespace Spryker\Sniffs\Factory;
+namespace Spryker_CodeSniffer\Sniffs\Factory;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractMethodAnnotationSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractMethodAnnotationSniff;
 
 abstract class AbstractFactoryMethodAnnotationSniff extends AbstractMethodAnnotationSniff
 {

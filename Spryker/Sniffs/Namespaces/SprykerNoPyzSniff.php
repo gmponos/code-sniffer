@@ -3,11 +3,11 @@
  * (c) Spryker Systems GmbH copyright protected.
  */
 
-namespace Spryker\Sniffs\Namespaces;
+namespace Spryker_CodeSniffer\Sniffs\Namespaces;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
-use Spryker\Traits\UseStatementsTrait;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Traits\UseStatementsTrait;
 
 /**
  * Makes sure the Pyz (project) namespace does not leak into the Spryker core one.

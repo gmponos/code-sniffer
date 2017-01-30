@@ -3,7 +3,7 @@
 /**
  * (c) Spryker Systems GmbH copyright protected.
  */
-namespace Spryker\Sniffs\Whitespace;
+namespace Spryker_CodeSniffer\Sniffs\Whitespace;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;

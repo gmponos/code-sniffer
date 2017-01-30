@@ -1,5 +1,5 @@
 <?php
-namespace Spryker\Sniffs\Formatting;
+namespace Spryker_CodeSniffer\Sniffs\Formatting;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Sniffs\Sniff;

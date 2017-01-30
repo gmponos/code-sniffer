@@ -6,11 +6,11 @@
  * @author Gregor Harlan <gharlan@web.de>
  */
 
-namespace Spryker\Sniffs\Classes;
+namespace Spryker_CodeSniffer\Sniffs\Classes;
 
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * In method arguments there must not be arguments with default values before non-default ones.

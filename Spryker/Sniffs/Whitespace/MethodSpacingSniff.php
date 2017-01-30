@@ -1,9 +1,9 @@
 <?php
 
-namespace Spryker\Sniffs\Whitespace;
+namespace Spryker_CodeSniffer\Sniffs\Whitespace;
 
 use PHP_CodeSniffer\Files\File;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
 
 /**
  * Checks that the method declaration and body has correct spacing.

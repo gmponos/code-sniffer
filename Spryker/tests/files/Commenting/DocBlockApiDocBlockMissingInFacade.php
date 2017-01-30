@@ -5,7 +5,7 @@
  * Use of this software requires acceptance of the Evaluation License Agreement. See LICENSE file.
  */
 
-namespace Spryker\Zed\Bundle\Business;
+namespace Spryker_CodeSniffer\Zed\Bundle\Business;
 
 class DocBlockApiDocBlockMissingInFacade
 {

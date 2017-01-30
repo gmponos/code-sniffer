@@ -1,12 +1,12 @@
 <?php
 
-namespace Spryker\Sniffs\Commenting;
+namespace Spryker_CodeSniffer\Sniffs\Commenting;
 
 use Exception;
 use PHP_CodeSniffer\Files\File;
 use PHP_CodeSniffer\Util\Tokens;
-use Spryker\Sniffs\AbstractSniffs\AbstractSprykerSniff;
-use Spryker\Traits\UseStatementsTrait;
+use Spryker_CodeSniffer\Sniffs\AbstractSniffs\AbstractSprykerSniff;
+use Spryker_CodeSniffer\Traits\UseStatementsTrait;
 
 /**
  * Ensures Doc Blocks for throws annotations are correct.
