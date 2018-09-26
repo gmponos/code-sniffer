@@ -8,6 +8,7 @@
 
     <!-- Ignore all (PHP) test files. -->
     <exclude-pattern>*/test_files/*</exclude-pattern>
+    <exclude-pattern>*/_data/*</exclude-pattern>
 
     <exclude-pattern>\.idea</exclude-pattern>
     <exclude-pattern>\.git</exclude-pattern>
